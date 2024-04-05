@@ -1,0 +1,87 @@
+header {
+  padding: 0 30px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+header ul {
+  display: flex;
+}
+
+header li {
+  list-style: none;
+  display: block;
+}
+
+header button {
+  background: none;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-left: 20px;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+header .sign-up-btn {
+  border: 1px solid #61dafb;
+  color: #61dafb;
+}
+
+header .sign-in-btn {
+  background: #61dafb;
+  color: #282c34;
+}
+
+.userProfile {
+  border-radius: 100%;
+  height: 40px;
+  padding: 0;
+  margin-right: 3rem;
+}
+
+.relative {
+  display: relative;
+}
+
+.logout-modal {
+  display: flex;
+
+  width: 8.5rem; /* Corresponds to w-40 */
+  background-color: #f9fafb; /* Corresponds to bg-gray-50 */
+  box-shadow: 0 0 0.75rem rgba(0, 0, 0, 0.1); /* Corresponds to shadow-xl */
+  border-radius: 0.5rem; /* Corresponds to rounded-lg */
+  display: flex; /* Corresponds to flex */
+  flex-direction: column; /* Corresponds to flex-col */
+  position: absolute; /* Corresponds to absolute */
+  top: 7.8rem; /* Corresponds to top-12 */
+
+  overflow: hidden; /* Corresponds to overflow-hidden */
+  transition: top 0.2s ease-in-out; /* Added transition effect */
+}
+
+.logout-button {
+  display: flex;
+
+  padding: 3px 6px; /* Corresponds to px-4 py-2 */
+  align-items: center; /* Corresponds to items-center */
+
+  font-size: 15px; /* Corresponds to text-base */
+  color: #333; /* Corresponds to text-textColor */
+  background-color: #f0f4f8;
+  z-index: 9999;
+  transition: background-color 0.2s ease-in-out; /* Added transition effect */
+}
+
+.logout-button:hover {
+  background-color: #d3d3d3;
+}
+
+.logoutLogo {
+  margin-right: 0.7rem;
+}
